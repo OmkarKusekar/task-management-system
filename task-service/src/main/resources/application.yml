@@ -1,0 +1,13 @@
+# task-service/src/main/resources/application.yml
+spring:
+  application:
+    name: task-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/task_db
+    username: postgres
+    password: 0205
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
