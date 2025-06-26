@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: task-client
+server:
+  port: 8083
+task-service:
+  url: http://localhost:8081/api/tasks
+user-service:
+  url: http://localhost:8082/api/users
